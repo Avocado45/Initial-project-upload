@@ -5,7 +5,10 @@ This project was developed and tested in Ubuntu / WSL using Laravel Sail.
 
 REQUIREMENTS
 
+Install Composer
+
 Install docker
+
 Install WSL / Ubuntu / Linux shell environment
 
 Run the following commands from the project root:
