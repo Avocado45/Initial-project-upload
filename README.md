@@ -9,8 +9,11 @@ Install docker
 Install WSL / Ubuntu / Linux shell environment
 
 Run the following commands from the project root:
+
 cp .env.example .env
+
 composer install
+
 ./vendor/bin/sail up -d
 
 ./vendor/bin/sail artisan key:generate
