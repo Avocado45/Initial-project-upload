@@ -14,7 +14,7 @@ composer install
 ./vendor/bin/sail up -d
 ./vendor/bin/sail artisan key:generate
 ./vendor/bin/sail artisan migrate
-npm install
-npm run build
+./vendor/bin/sail npm install
+./vendor/bin/sail npm run build
 
 Web Application should be online at http://localhost
